@@ -13,13 +13,13 @@ class TrainsSeeder extends Seeder
     {
         $faker = \Faker\Factory::create('it_IT');
 
-        for ($i = 0; $i < 200; $i++) {
+        for ($i = 0; $i < 100; $i++) {
             $newTrain = new Train();
             $newTrain->azienda = $faker->company();
-            $newTrain->stazione_di_partenza = $faker->city();
-            $newTrain->stazione_di_arrivo = $faker->city();
-            $newTrain->orario_di_partenza = $faker->time();
-            $newTrain->orario_di_arrivo = $faker->time();
+            $newTrain->stazione_partenza = $faker->city();
+            $newTrain->stazione_arrivo = $faker->city();
+            $newTrain->orario_partenza = $faker->time();
+            $newTrain->orario_arrivo = $faker->time();
             $newTrain->codice_treno = $faker->regexify('[A-Z]{5}[0-4]{3}');
             $newTrain->numero_carrozze = $faker->randomNumber(1, false);
             $newTrain->cancellato = $faker->numberBetween(0, 1);

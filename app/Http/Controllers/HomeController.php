@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\trains;
+use App\train;
 
 class HomeController extends Controller
 {
     public function index() {
 
-        $trains = trains::all() ;
+        $trains = train::all() ;
 
         $navLinks = config('navLinks');
 
