@@ -3,12 +3,11 @@
     <nav>
         <ul>
             @foreach($links as $items)
-{{--                <li>--}}
-{{--                    <a href="{{route($items)}}"--}}
-{{--                       class="navLink {{Request::route()->getName() == $items?'active':''}}">--}}
-{{--                        {{$items}}--}}
-{{--                    </a>--}}
-{{--                </li>--}}
+                <li>
+                    <a class="navLink {{Request::route()->getName() == $items?'active':''}}">
+                        {{$items}}
+                    </a>
+                </li>
             @endforeach
         </ul>
     </nav>
