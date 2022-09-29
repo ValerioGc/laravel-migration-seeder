@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.t-center,
+.home-container .sub-home-container {
+  text-align: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header,
+footer {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  background-color: #1a1a1a;
+}
+
+main {
+  min-height: 80vh;
+  background-color: black;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg");
+}
+
+footer {
+  justify-content: center;
+  font-style: oblique;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+  position: sticky;
+  z-index: 999;
+  border-bottom: 2px solid transparent;
+  box-shadow: 0 -2px 8px #fff;
+}
+
+header nav {
+  flex-basis: 40%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+header nav ul .active {
+  border-bottom: 2px solid red;
+  color: red;
+}
+
+header nav ul li a {
+  color: #fff;
+  padding-bottom: 4vh;
+}
+
+header nav ul li a:hover {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 80vh;
+}
+
+.home-container .sub-home-container {
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem 1rem;
+}
+
+.home-container .sub-home-container h1 {
+  display: block;
+  padding: 2rem 0;
+}
+
+.home-container .sub-home-container .container-links {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.home-container .sub-home-container .container-links .links-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 2rem 0;
+}
+
+.home-container .sub-home-container .container-links .links-container .link {
+  font-size: 1.2rem;
+}
+
+.home-container .sub-home-container .container-links .links-container .link a:hover {
+  color: red;
+  text-decoration: underline;
+  padding-bottom: 14px;
+}
+
