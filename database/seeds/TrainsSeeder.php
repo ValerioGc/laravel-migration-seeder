@@ -13,6 +13,7 @@ class TrainsSeeder extends Seeder
     {
         $faker = \Faker\Factory::create('it_IT');
         $rand = rand(1, 10);
+
         for ($i = 0; $i < 500; $i++) {
             $newTrain = new Train();
             $newTrain->azienda = $faker->company();

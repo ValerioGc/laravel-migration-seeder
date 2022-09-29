@@ -15,6 +15,7 @@ class HomeController extends Controller
         $trains = train::where('giorno_partenza', $today)->get();
 
         $navLinks = config('navLinks');
+
         return view('home', compact('trains'), ['links' => $navLinks]);
     }
 }

@@ -1,26 +1,7 @@
 @import 'mixins/positionMixins';
 @import './partials/reset';
 @import './partials/common';
+@import './partials/table';
 @import './partials/header';
 @import './partials/home';
 
-table {
-    width: 90%;
-    margin: auto;
-    color: #000000;
-    border-color: #ABABAB;
-    border-collapse: collapse;
-}
-
-th,
-td {
-    width: calc(100% / 6);
-}
-
-td {
-    background-color: #d9d9d9;
-}
-
-th {
-    background-color: grey ;
-}

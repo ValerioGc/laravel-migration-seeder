@@ -1,11 +1,10 @@
 
 .home-container {
     @include d-flex('', '', '');
-    height: 80vh;
 
     .sub-home-container {
         @extend .t-center;
-        width: 50%;
+        width: 80%;
         margin: auto;
         background-color: #fff;
         padding: 2rem 1rem;
@@ -19,9 +18,6 @@
             @include d-flex('', '', '');
 
             .links-container {
-                width: 80%;
-                margin: auto;
-
                 @include d-flex('between', '', 'wrap');
                 padding: 2rem 0;
 

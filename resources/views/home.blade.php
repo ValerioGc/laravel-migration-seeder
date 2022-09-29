@@ -13,7 +13,7 @@
                             <tr>
                                 <th>Azienda</th>
                                 <th>Data</th>
-                                <th>Città partenza</th>
+                                <th>Partenza</th>
                                 <th>Destinazione</th>
                                 <th>Orario partenza</th>
                                 <th>Orario arrivo</th>
