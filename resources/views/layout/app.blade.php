@@ -13,7 +13,7 @@
     <body>
         @include('partials.header')
         <main>
-            @yield('movies-container')
+            @yield('container')
         </main>
         @include('partials.footer')
     </body>

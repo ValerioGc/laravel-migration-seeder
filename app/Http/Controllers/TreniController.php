@@ -3,18 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\train;
 
-class HomeController extends Controller
+class TreniController extends Controller
 {
     public function index() {
 
-        $today = date('Y-m-d');
-
-        $trains = train::where('giorno_partenza', $today)->get();
+        $trains = train::all();
 
         $navLinks = config('navLinks');
+
         return view('home', compact('trains'), ['links' => $navLinks]);
     }
 }

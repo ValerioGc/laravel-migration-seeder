@@ -126,3 +126,24 @@ header nav ul li a:hover {
   padding-bottom: 14px;
 }
 
+table {
+  width: 90%;
+  margin: auto;
+  color: #000000;
+  border-color: #ABABAB;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 16.6666666667%;
+}
+
+td {
+  background-color: #d9d9d9;
+}
+
+th {
+  background-color: grey;
+}
+

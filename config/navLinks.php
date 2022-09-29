@@ -2,7 +2,7 @@
 
     $navLinks = [
         'Home',
-        'trains',
+        'Treni',
     ];
 
     return $navLinks;

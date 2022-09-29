@@ -4,7 +4,7 @@
         <ul>
             @foreach($links as $items)
                 <li>
-                    <a class="navLink {{Request::route()->getName() == $items?'active':''}}">
+                    <a href="{{route($items)}}" class="navLink {{Request::route()->getName() == $items?'active':''}}">
                         {{$items}}
                     </a>
                 </li>
