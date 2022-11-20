@@ -33,7 +33,7 @@
         <td><strong>php artisan db:seed</strong></td>
     </tr>
     <tr>
-        <td>:arrow_forward: Start developement server<:/td>
+        <td>:arrow_forward: Start developement server:</td>
         <td><strong>php artisan serve</strong></td>
     </tr>
   </tbody>
