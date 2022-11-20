@@ -102,7 +102,7 @@
 ## *_Previews:_*
 
 <div align="center">
-  <img align="center" src="/preview/db-seeder.png" alt="preview " />
+  <img align="center" src="/preview/db-seed.png" alt="preview " />
 </div>
    
 
